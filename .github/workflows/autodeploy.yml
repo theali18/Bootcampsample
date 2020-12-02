@@ -33,5 +33,5 @@ jobs:
       - name: Installing surge
         run: npm install -g surge
         name: deploying using surge
-        run: surge ./right-baseball.surge.sh --token $ {{  secrets. surge_secret_token }}
+        run: surge ./right-baseball.surge.sh --token $ {{  secrets. surge_secret_token })
           .
